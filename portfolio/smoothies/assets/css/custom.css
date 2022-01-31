@@ -135,7 +135,7 @@
 
 /* Global font */
 body { font-family: 'Neucha',serif }
-body { font-family: var(--global-font) }
+/*body { font-family: var(--global-font) }*/
 
 .theme-one p { color: var(--purple-500) }
 .theme-one li { color: var(--purple-500) }
