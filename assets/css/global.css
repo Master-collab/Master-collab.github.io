@@ -134,7 +134,7 @@
 }
 
 /* Global font */
-body { font-family: 'Neucha',serif}
+body { font-family:'Neucha', serif }
 /*body { font-family: var(--global-font) }*/
 
 .theme-one { background-color: var(--ontrend-800) }
@@ -175,17 +175,27 @@ body { font-family: 'Neucha',serif}
 
 
 .hero-block h1 {
+    font-family: 'Dongle';
     font-size: calc(60px + (132 - 60) * ((100vw - 320px)/ (1600 - 320)));  
     margin-bottom: 40px;
-    margin-top: 140px;
+    margin-top: 160px;
     letter-spacing: 2px;
-    color : var(--indigo-500);
+    color : var(--white-000);
 }
                         
 .hero-block h2 {
+    font-family: serif;
     font-size: calc(32px + (64 - 32) * ((100vw - 320px)/ (1600 - 320)));  
     letter-spacing: 1px;
     color : var(--indigo-500);
+}
+
+.hero-block h3 {
+    font-family: 'Dongle';
+    font-weight: 300;
+    font-size: calc(32px + (64 - 32) * ((100vw - 320px)/ (1600 - 320)));  
+    letter-spacing: 1px;
+    color : var(--white-000);
 }
                         
 .cols-2-split .col-2 h2 {
@@ -216,19 +226,19 @@ body { font-family: 'Neucha',serif}
 .container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-700) }
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--indigo-500) }
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-600) }
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--indigo-400) }
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--indigo-600) }
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--indigo-700) }
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
 .container-menu.menu-sticky.menu-desktop.menu-on-scroll,
 .container-menu.menu-sticky.menu-mobile.menu-on-scroll,
-.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--indigo-600) }
-.container-menu.menu-desktop { background-color: var(--indigo-600) }
-.container-menu.menu-mobile { background-color: var(--indigo-600) }
-.container-menu.menu-mobile ul.mobile-display { background-color: var(--indigo-600) }
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
+.container-menu.menu-desktop { background-color: var(--ontrend-800) }
+.container-menu.menu-mobile { background-color: var(--ontrend-800) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
