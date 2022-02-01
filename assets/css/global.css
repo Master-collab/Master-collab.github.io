@@ -165,12 +165,16 @@ body { font-family:'Neucha', serif }
 .theme-four .col-3 h3 { color: var(--white-000) }
 .theme-four .col-1 h2 { color: var(--white-000) }
 
-.theme-five { background-color: var(--ontrend-800) }
+.theme-five { background-color: var(--indigo-500) }
 .theme-five p { color: var(--white-000) }
 .theme-five li { color: var(--white-000) }
-.theme-five h2 { color: var(--indigo-500) } 
-.theme-five h3 { color: var(--indigo-500) } 
+.theme-five h2 { color: var(--ontrend-800) } 
+.theme-five h3 { color: var(--white-000) } 
 .theme-five .upper-label { color: var(--indigo-500) }
+
+footer { background-color: var(--ontrend-800) }
+footer h3 { color: var(--indigo-500) }
+
 
 
 
@@ -196,6 +200,10 @@ body { font-family:'Neucha', serif }
     font-size: calc(32px + (64 - 32) * ((100vw - 320px)/ (1600 - 320)));  
     letter-spacing: 1px;
     color : var(--white-000);
+}
+
+.col-1 h2{
+    margin-top: 30px;
 }
                         
 .cols-2-split .col-2 h2 {
@@ -242,3 +250,28 @@ body { font-family:'Neucha', serif }
 .container-menu.menu-desktop { background-color: var(--ontrend-800) }
 .container-menu.menu-mobile { background-color: var(--ontrend-800) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--ontrend-800) }
+
+.container-contact-form { background-color: var(--ontrend-800) }
+#contact-form { background-color: var(--indigo-500) }
+#contact-form p { color: var(--white-000) }
+#contact-form h2 { color: var(--ontrend-800) }
+#contact-form p a:link { color: var(--ontrend-800) }
+#contact-form p a:visited { color: var(--ontrend-800) }
+#contact-form p a:focus { color: var(--white-000) }
+#contact-form p a:hover { color: var(--white-000) }
+#contact-form p:active { color: var(--white-000) }
+#contact-form [type="text"] { background-color: var(--ontrend-800) }
+#contact-form [type="email"] { background-color: var(--ontrend-800) }
+#contact-form textarea { background-color: var(--ontrend-800) }
+#contact-form [type="text"] { background-color: var(--ontrend-700) }
+#contact-form [type="email"] { background-color: var(--ontrend-700) }
+#contact-form textarea { background-color: var(--ontrend-700) }
+#contact-form [type="text"] { background-color: var(--ontrend-800) }
+#contact-form [type="email"] { background-color: var(--ontrend-800) }
+#contact-form textarea { background-color: var(--ontrend-800) }
+#contact-form [type="text"] { background-color: var(--white-000) }
+#contact-form [type="email"] { background-color: var(--white-000) }
+#contact-form textarea { background-color: var(--white-000) }
+#contact-form label { color: var(--ontrend-800) }
+#contact-form #btn-submit { background-color: var(--ontrend-800) }
+
