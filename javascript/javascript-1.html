@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>JavaScript work file</h1>
+
+    <script>
+        document.write("Hello. This is my very first script on 15 february 2022.");
+
+        document.write("it is a" + " " + "test");
+
+        document.write("She said: \"I\'m a huge fan of JavaScript.\"");
+
+        document.write("<b>The file is in the c:\/pdfs folder.<\/b>");
+
+        document.write("<i>this string in displayed in italics.<\/i>");
+
+        document.write("<h2>A heading.<\/h2> <p> Some text with bold formatting.<\/p>");
+
+        // document.write("One for sorrow,");
+        // document.write("<br>");
+        // document.write("Two for joy.");
+        // document.write("<br>");
+        // document.write("Three for a girl,");
+        // document.write("<br>");
+        // document.write("And four for a boy.");
+
+        // window.alert("Hope you enjoy your visit to my web page.");
+
+        window.confirm("Did you <b>enjoy</b> your visit to my web page?");
+
+        console.log("Got this far.")
+
+        let text = `Hello, "world", 'wolrd'`;
+
+        console.log(text);
+
+        let firstName = "Mary";
+        let lastName = "Smith";
+        console.log(`Welcome: ${firstName} ${lastName}`)
+
+        document.write("<p><b>"+navigator.userAgent+"<\/b><\/p>");
+
+        document.write("Web browser language: "+navigator.language);
+
+        document.write("<p>Viewport width: <b>"+window.innerWidth+"px<\/b><br>"); 
+        document.write("Viewport height: <b>"+window.innerHeight+"px<\/b><\/p>");
+
+        document.write("<p><b>"+window.location.href+"<\/b><\/p>");
+
+        document.write("<p>Title: <b>"+document.title+"<\/b><\/p>");
+        document.write("<p>Last Updated: <b>"+document.lastModified+"<\/b><\/p>");  
+        document.write("<p>Referrer: <b>"+document.referrer+"<\/b><\/p>");  
+
+        let userName;
+        userName = "Sheila";
+        let userRegion;
+        userRegion = "Australia";
+
+        console.log(`userRegion : ${userRegion}`);
+
+        let myVar1 = "4";
+        let myVar2 = 4;
+
+        let FirstNumber = 36;
+        let SecondNumber = 12;
+        let SumResult = FirstNumber + SecondNumber;
+        document.write("<p>First Number: "+FirstNumber+"<br>");
+        document.write("Second Number: "+SecondNumber+"<br>");
+        document.write("Result: <b>"+SumResult+"<\/b><\/p>");
+
+        let firstVar;
+        document.write("<p><b>Variable Type:<\/b> " + typeof firstVar+"<\/p>");
+        firstVar = "12";
+        document.write("<p><b>Variable Type:<\/b> " + typeof firstVar+"<\/p>");
+        firstVar = 12;
+        document.write("<p><b>Variable Type:<\/b> " + typeof firstVar+"<\/p>");
+        firstVar = "12";
+        document.write("<p><b>Variable Type:<\/b> " + typeof firstVar+"<\/p>");
+
+    </script>
+    
+</body>
+</html>

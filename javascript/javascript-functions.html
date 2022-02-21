@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample JavaScript functions</title>
+</head>
+<body>
+
+    <h1>JavaScript functions</h1>
+
+    <script>
+        function sayGreeting(){
+            //code here
+            console.log("My first function declaration")
+        }
+
+    sayGreeting();
+
+    // function expression
+
+    const greeting = (function sayGreeting2(){
+        //code here
+        console.log("My function expression");
+    });
+
+    greeting();
+
+    // anonymous function expression
+
+    const greeting2 = function (){
+        //code here
+        console.log("My function anonymous expression");
+    };
+
+    greeting2();
+
+    // arrow function expression
+
+    const greeting3 = () => {
+        //code here
+        console.log("My function arrow expression");
+    };
+
+    greeting3();
+
+    // simple arrow function expression
+
+    const greeting4 = () => console.log("My function simple arrow expression");
+
+    greeting4();
+
+    // arrow function with parameters
+
+    const displayAge1 = (age) => console.log(`Your age is: ${age}`);
+    displayAge1(21);
+
+    // Function declaration with parameters		
+    function sumA(a, b) {
+    console.log(`Output A: ${a + b}`);
+    return (a + b);
+    }
+
+    // Function call with arguments
+    let resultA = sumA(1, 2);
+    console.log(`Returned result A: ${resultA}`);
+
+    // Anonymous function expression with parameters	
+    const sumB = function (a, b) {
+    console.log(`Output B: ${a + b}`);
+    return (a + b);
+    };
+
+    // Function call with arguments
+    let resultB = sumB(3, 4);
+    console.log(`Returned result B: ${resultB}`);
+
+    // Arrow function with parameters	
+    const sumC = (a, b) => {console.log(`Output C: ${a + b}`);
+    return (a + b)}; 
+
+    // Function call with arguments
+    let resultC = sumC(5, 6);
+    console.log(`Returned result C: ${resultC}`);
+
+    function showGreeting(message='Hello, world!') {
+    console.log(message);
+    }
+    showGreeting(); // Outputs 'Hello, world!'
+    showGreeting('Hi, there'); // Outputs 'hi, there!'
+
+
+
+
+    </script>
+    
+</body>
+</html>
