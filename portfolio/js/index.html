@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Portfolio | Joe Bloggs | Front-end Developer | </title>
+    <title>JavaScript Portfolio | Julien Florit | Front-end Developer | </title>
     <meta name="description" content="A sample collection of my recent JavaScript projects.">
 
 	<!-- Stylesheets -->
@@ -30,7 +30,13 @@
             radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0, transparent 50%);
         }
 
-        .theme-js .col-2 { background-color: var(--green-100) }
+        .theme-js .col-4 { 
+            background-color: var(--green-100); 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
         .theme-js h3 { color: #222 }
         .theme-js p { color: #222 }
 
@@ -46,6 +52,8 @@
         .theme-js a.btn { background-image: linear-gradient(to right,#e052a0,#f15c41) } 
         .theme-js a.btn:hover { filter: brightness(140%) saturate(140%) } 
 
+
+
     </style>
 
 	<!-- Font Awesome 6.1 icons -->
@@ -59,7 +67,7 @@
     <!-- navigation menu -->
 
     <nav class="container-menu menu-desktop menu-sticky">
-        <a href="#"><img src="../../assets/img/website-logo.png" alt="website logo"></a>
+        <a href="#"><img src="../../assets/img/julien-florit.png" alt="website logo"></a>
         <ul class="">
             <li><a href="../../index.html">Home</a></li>
             <li><a href="../../portfolio/index.html">Portfolio</a></li>
@@ -86,7 +94,7 @@
         
         <section class="container-flex theme-js">
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Data Tables</h3>
                 
@@ -97,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Weather for Dublin</h3>
                 
@@ -108,7 +116,19 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
+                
+                <h3>Calculator with Modules</h3>
+                
+                <p>A basic calculator that uses export/import statements to share code with a JavaScript module file.</p>
+                
+                <div class="container-btn">
+                    <a href="calculator-modules/index.html" class="btn btn-primary"><span>View project</span> <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+
+            <div class="col-4">
                 
                 <h3>Movies Listing</h3>
                 
@@ -119,7 +139,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Random Quotes Generator</h3>
                 
@@ -130,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Image Blue Filter</h3>
                 
@@ -141,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Counter</h3>
                 
@@ -152,7 +172,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Tip Calculator</h3>
                 
@@ -163,7 +183,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Image Slideshow</h3>
                 
@@ -175,7 +195,7 @@
             </div>
 
 
-            <div class="col-2">
+            <div class="col-4">
                 
                 <h3>Random Colour Generator</h3>
                 
@@ -184,6 +204,15 @@
                 <div class="container-btn">
                     <a href="colours/index.html" class="btn btn-primary"><span>View project</span> <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
+            </div>
+
+            <div class="col-4" style="background-color: transparent;">
+                <p>&nbsp;</p>
+            </div>
+
+            <div class="col-4" style="background-color: transparent;">
+                
+                <p>&nbsp;</p>
             </div>
 
         </section>
